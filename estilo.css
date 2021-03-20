@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    background:#94b8d7;
+    
+}
+
+header{
+    flex-basis: 12vh;
+    display: flex;
+    flex-direction: row;
+    background: #000a23;
+}
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: pompiere, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    list-style: none;
+
+}
+
+.menu li{
+    padding-left: 5rem;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu a:hover{
+    color:lightgrey;
+}
+
+
+.formulario{
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    padding: 30px;
+}
+
+.formulario form{
+    width: 400px;
+    min-height: 60vh;
+    background: white;
+    border: 5px solid white;
+    padding: 3%;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.formulario h4{
+    text-align: center;
+    color: #000a23;
+    text-transform: uppercase;
+    border-bottom: 1px solid #42929d;
+}
+
+.formulario input{
+    align-content: center;
+    font-size: 1rem;
+}
+
+
+#boton1{
+    background: #000a23;
+    color: white;
+    font-weight: bold;
+    border: #000a23 solid;
+    font-size: 1rem;
+
+}
+
+
+#boton1:hover{
+    background:white;
+    color: black;
+    border: #000a23 solid;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.tablas{
+    width: auto;
+    display: grid;
+    place-items: center;
+    padding: 100px;
+}
+
+.tablas table{
+    width: auto;
+    background: white;
+    border: 1px solid black;
+    padding: 1%;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
